@@ -37,7 +37,7 @@ def iterate_through_keys
     summer_olympics[:Atlanta]= "1996"
       summer_olympics.each do |x|
         upcased_cities= "#{x}".upcase
-        puts upcased_cities
+        # puts upcased_cities
       end
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
