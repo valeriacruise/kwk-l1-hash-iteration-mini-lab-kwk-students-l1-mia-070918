@@ -31,6 +31,7 @@ def iterate_through_hash
   
 end
 
+
 def iterate_through_keys
   def summer_olympics
       summer_olympics.each_key do |x|
