@@ -33,12 +33,6 @@ end
 
 def iterate_through_keys
   def summer_olympics
-   :Sydney => "2000", 
-   :Athens => "2004", 
-   :Beijing => "2008", 
-   :London => "2012",
-   :Atlanta => "1996"
-  }
       summer_olympics.each_key do |x|
   
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
