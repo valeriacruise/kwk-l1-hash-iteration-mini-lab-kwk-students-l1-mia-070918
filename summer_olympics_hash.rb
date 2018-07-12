@@ -35,7 +35,6 @@ end
 def iterate_through_keys
      summer_olympics= create_olympics_hash
     summer_olympics[:Atlanta]= "1996"
-    return summer_olympics
       summer_olympics.each do |x|
         upcased_cities= "#{x}".upcase
         puts upcased_cities
